@@ -4,10 +4,12 @@ As part of the project for the subject project, I was given the task Configurati
 # Widgets
 For my bachelor's thesis, I decided to create a widget that will be part of the university application as a daily helper for students. The widget themes were chosen by the most used modules. The most important are the menu and schedule widgets. Todo has not been used as expected, so we wanted to support this module by creating a widget.
 
-<img src='https://github.com/ErikPrchlik/Configuration/blob/main/gifs/add.gif' hight='200'>
-<img src='https://github.com/ErikPrchlik/Configuration/blob/main/gifs/food.gif' hight='200'>
-<img src='https://github.com/ErikPrchlik/Configuration/blob/main/gifs/roz.gif' hight='200'>
-<img src='https://github.com/ErikPrchlik/Configuration/blob/main/gifs/todo.gif' hight='200'>
+<p align="middle">
+  <img src='https://github.com/ErikPrchlik/Configuration/blob/main/gifs/add.gif' width='230'>
+  <img src='https://github.com/ErikPrchlik/Configuration/blob/main/gifs/food.gif' width='230'> 
+  <img src='https://github.com/ErikPrchlik/Configuration/blob/main/gifs/roz.gif' width='230'> 
+  <img src='https://github.com/ErikPrchlik/Configuration/blob/main/gifs/todo.gif' width='230'>
+</p>
 
 The data were collected and stored by the Firebase real-time database and some of them also by the ROOM database. The biggest problem with this work lies in updating the views on the home screen of the device. Widgets are event-driven, meaning they catch incoming events and react based on them. The specifics of the menu is that it needs real-time data from Firebase that comes from other students who have rated the meals.
 
