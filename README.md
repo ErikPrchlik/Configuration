@@ -16,6 +16,10 @@ The data were collected and stored by the Firebase real-time database and some o
 # Map modul refactoring
 The most complex model of the university application was also the oldest. That's why we decided to refactor the code, use newer technologies and improve the logic and efficiency of the code. This part of the application was written in Java, so we decided to follow the development direction of this application and used the Kotlin programming application. We also changed database technologies from Firebase real-time databases and ROOM to ROOM again, but this time with a combination of REST API managed by the Retrofit library. As always, we strictly followed the principles of MVVM architecture and added technology to take care of dependency injection, Koin. Last but not least, the newer library of google map utilities was used, which allowed us to work more efficiently with the outdoor and indoor layers of the map to improve the user experience.
 
-https://github.com/ErikPrchlik/Configuration/assets/34059320/8ab04a0f-a150-4cea-abf2-00a733037682
+<p align="middle">
+  <img src='https://github.com/ErikPrchlik/Configuration/blob/main/gifs/MainMap.jpg' width='230'>
+  <img src='https://github.com/ErikPrchlik/Configuration/blob/main/gifs/IndoorMap.jpg' width='230'> 
+  <img src='https://github.com/ErikPrchlik/Configuration/blob/main/gifs/SearchActivity.jpg' width='230'>
+</p>
 
 
